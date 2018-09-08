@@ -1,20 +1,98 @@
-div 
+body
 {
-    width: 100%;
-    height: 50px;
-    background-color: red;
-    font-weight: bold;
-    position: relative;
-	animation: mymove 1s ;
-}
+background-color: black;
 
+}
+#name
+{
+	position:absolute;
+	bottom:50%;
+	top:25%;
+	left:25%;
+	right:25%;
+   
+	animation: name 3s ;
+	animation-delay: 2s;
+	color:black;
+	font-size:74px;
+}
 #div1
 {
-	animation-timing-function: ease;
+	background-color:white;
+    width: 100%;
+	animation: div1 0s ;
+	animation-delay: 0s;
+}
+#div2
+{
+	background-color:white;
+    width: 100%;
+	animation: div2 2s ;
+	animation-delay: 1s;
 }
 
-@keyframes mymove
+#div3
 {
-from{bottom: 0px;}
-to{top: 200px;}	
+	background-color:red;
+    width: 100%;
+	animation: div3 1s ;
+	animation-delay: 0s;
 }
+
+#div4
+{
+	background-color:maroon;
+    width: 100%;
+	animation: div4 2s ;
+	animation-delay: 1s;
+}
+
+
+
+#div1
+{animation-timing-function: ease;}
+#div2
+{animation-timing-function: ease;}
+#div3
+{animation-timing-function: ease;}
+#div4
+{animation-timing-function: ease;}
+#name
+{animation-timing-function: ease;}
+
+
+
+@keyframes div1
+{
+	0% {bottom:20%;height:1600px;}
+	10%{bottom:60%;height:1250px;}
+	100% {bottom:100%;height:100%;}
+}
+@keyframes div2
+{
+	0% {bottom:50%;height:100px;}
+	22%{bottom:60%;height:500px;}
+	100% {bottom:120%;height:0px;}
+}
+@keyframes div3
+{
+	0% {bottom:0%;height:100px;}
+	35%{bottom:10%;height:200px;}
+	100% {bottom:120%;height:0px;}
+}
+@keyframes div4
+{
+	0% {bottom:20%;height:100px;}
+	50%{bottom:100%;height:500px;}
+	100% {bottom:120%;height:0px;}
+}
+@keyframes name
+{
+	0% {color:black;}
+	25% {color:gray;}
+	75% {color:gray;}
+	100% {color:black;}
+}
+
+
+
