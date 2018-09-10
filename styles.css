@@ -110,20 +110,20 @@ background-color: black;
 @keyframes name
 {
 	
-	0% {color:black;font-size:0px;}
-	
+	0% {color:black;}
+	25% {color:black;bottom:1px;}
 	50% {color:gray;} 
-	
-	100% {color:black;font-size:0px;}
+	75% {color:black;bottom:1px;}
+	100% {color:black;}
 }
 @keyframes name2
 {
 	
-	0% {color:black;font-size:0px;}
-	
+	0% {color:black;}
+	25% {color:black;bottom:1px;}
 	50% {color:gray;} 
-	
-	100% {color:black;font-size:0px;}
+	75% {color:black;bottom:1px;}
+	100% {color:black;}
 }
 
 
