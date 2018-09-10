@@ -21,7 +21,7 @@ background-color: black;
 {
 	background-color:white;
     width: 100%;
-	animation: div1 2s ;
+	animation: div1 2s ; infinite:
 	animation-delay: 0s;
 }
 #div2
@@ -29,7 +29,7 @@ background-color: black;
 	background-color:white;
     width: 100%;
 	animation: div2 4s ;
-	animation-delay: 1s;
+	animation-delay: 1s; infinite:
 }
 
 #div3
@@ -37,7 +37,7 @@ background-color: black;
 	background-color:red;
     width: 100%;
 	animation: div3 3s ;
-	animation-delay: 0s;
+	animation-delay: 0s; infinite:
 }
 
 #div4
@@ -45,7 +45,7 @@ background-color: black;
 	background-color:maroon;
     width: 100%;
 	animation: div4 2s ;
-	animation-delay: 1s;
+	animation-delay: 1s; infinite:
 }
 
 
