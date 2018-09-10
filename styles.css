@@ -11,23 +11,9 @@ background-color: black;
 	left:25%;
 	right:25%;
    
-	animation: name 2s  
+	animation: name 1s  
 		infinite;
 	animation-delay: 0s;
-	color:black;
-	font-size:74px;
-}
-#name2
-{
-	position:absolute;
-	bottom:50%;
-	top:25%;
-	left:25%;
-	right:25%;
-   
-	animation: name2 2s  
-		infinite;
-	animation-delay: 1s;
 	color:black;
 	font-size:74px;
 }
@@ -78,61 +64,37 @@ background-color: black;
 {animation-timing-function: ease;}
 #name
 {animation-timing-function: ease;}
-#name2
-{animation-timing-function: ease;}
-
 
 
 @keyframes div1
 {
 	0% {bottom:20%;height:100%;}
-	
 	100% {bottom:100%;height:100%;}
 }
 @keyframes div2
 {
 	0% {bottom:20%;height:100%;}
-	
 	100% {bottom:100%;height:100%;}
 }
 @keyframes div3
 {
 	0% {bottom:20%;height:100%;}
-	
 	100% {bottom:100%;height:100%;}
 }
 @keyframes div4
 {
 	0% {bottom:20%;height:100%;}
-	
 	100% {bottom:100%;height:100%;}
 }
 @keyframes name
 {
-	
 	0% {color:black;}
 	25% {color:black;bottom:1px;}
 	50% {color:gray;} 
-<<<<<<< HEAD
-	75% {color:black;}
-=======
 	75% {color:black;bottom:1px;}
->>>>>>> parent of 085fe63... Update styles.css
 	100% {color:black;}
 }
-@keyframes name2
-{
-	
-	0% {color:black;}
-	25% {color:black;bottom:1px;}
-	50% {color:gray;} 
-<<<<<<< HEAD
-	75% {color:black;}
-=======
-	75% {color:black;bottom:1px;}
->>>>>>> parent of 085fe63... Update styles.css
-	100% {color:black;}
-}
+
 
 
 
