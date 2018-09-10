@@ -11,7 +11,21 @@ background-color: black;
 	left:25%;
 	right:25%;
    
-	animation: name 1s  
+	animation: name 2s  
+		infinite;
+	animation-delay: 0s;
+	color:black;
+	font-size:74px;
+}
+#name2
+{
+	position:absolute;
+	bottom:50%;
+	top:25%;
+	left:25%;
+	right:25%;
+   
+	animation: name2 2s  
 		infinite;
 	animation-delay: 2s;
 	color:black;
@@ -95,10 +109,23 @@ background-color: black;
 {
 	
 	0% {color:black;}
-	
-	50% {color:gray;}
+	25% {color:black;}
+	50% {color:gray;} 
+	75% {color:black;}
 	100% {color:black;}
 }
+@keyframes name2
+{
+	
+	0% {color:black;}
+	25% {color:black;}
+	50% {color:gray;} 
+	75% {color:black;}
+	100% {color:black;}
+}
+
+
+
 
 
 
