@@ -113,7 +113,11 @@ background-color: black;
 	0% {color:black;}
 	25% {color:black;bottom:1px;}
 	50% {color:gray;} 
+<<<<<<< HEAD
 	75% {color:black;}
+=======
+	75% {color:black;bottom:1px;}
+>>>>>>> parent of 085fe63... Update styles.css
 	100% {color:black;}
 }
 @keyframes name2
@@ -122,7 +126,11 @@ background-color: black;
 	0% {color:black;}
 	25% {color:black;bottom:1px;}
 	50% {color:gray;} 
+<<<<<<< HEAD
 	75% {color:black;}
+=======
+	75% {color:black;bottom:1px;}
+>>>>>>> parent of 085fe63... Update styles.css
 	100% {color:black;}
 }
 
