@@ -11,7 +11,7 @@ background-color: black;
 	left:25%;
 	right:25%;
    
-	animation: name 3s ;
+	animation: name 5s ;
 	animation-delay: 2s;
 	color:black;
 	font-size:74px;
@@ -20,14 +20,14 @@ background-color: black;
 {
 	background-color:white;
     width: 100%;
-	animation: div1 0s ;
+	animation: div1 2s ;
 	animation-delay: 0s;
 }
 #div2
 {
 	background-color:white;
     width: 100%;
-	animation: div2 2s ;
+	animation: div2 4s ;
 	animation-delay: 1s;
 }
 
@@ -35,7 +35,7 @@ background-color: black;
 {
 	background-color:red;
     width: 100%;
-	animation: div3 1s ;
+	animation: div3 3s ;
 	animation-delay: 0s;
 }
 
