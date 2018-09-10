@@ -27,7 +27,7 @@ background-color: black;
    
 	animation: name2 2s  
 		infinite;
-	animation-delay: 2s;
+	animation-delay: 1s;
 	color:black;
 	font-size:74px;
 }
@@ -77,6 +77,8 @@ background-color: black;
 #div4
 {animation-timing-function: ease;}
 #name
+{animation-timing-function: ease;}
+#name2
 {animation-timing-function: ease;}
 
 
