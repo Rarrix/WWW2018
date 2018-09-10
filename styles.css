@@ -111,7 +111,7 @@ background-color: black;
 {
 	
 	0% {color:black;}
-	25% {color:black;}
+	25% {color:black;bottom:1px;}
 	50% {color:gray;} 
 	75% {color:black;}
 	100% {color:black;}
@@ -120,7 +120,7 @@ background-color: black;
 {
 	
 	0% {color:black;}
-	25% {color:black;}
+	25% {color:black;bottom:1px;}
 	50% {color:gray;} 
 	75% {color:black;}
 	100% {color:black;}
