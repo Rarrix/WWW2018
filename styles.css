@@ -1,6 +1,6 @@
 body
 {
-background-color: black;
+background-color: gray;
 
 }
 #name
@@ -11,13 +11,20 @@ background-color: black;
 	left:25%;
 	right:25%;
    
-	animation: name 1s  
+	animation: name 3s  
 		infinite;
 	animation-delay: 0s;
 	color:black;
-	font-size:74px;
+	font-size:24px;
 }
-#div1
+#floor
+{
+	position:absolute;
+	width:100px;
+	height:20px;
+	color:black;
+}
+	#div1
 {
 	background-color:white;
     width: 100%;
@@ -88,11 +95,11 @@ background-color: black;
 }
 @keyframes name
 {
-	0% {color:black;}
+	0% {color:grey;left:20%;}
 	25% {color:black;bottom:1px;}
-	50% {color:gray;} 
+	50% {color:gray;left:80%;} 
 	75% {color:black;bottom:1px;}
-	100% {color:black;}
+	100% {color:grey;left:20%;}
 }
 
 
