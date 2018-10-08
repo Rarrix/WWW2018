@@ -1,108 +1,65 @@
 body
 {
-background-color: gray;
+background-color: #222222;
 
 }
-#name
-{
-	position:absolute;
-	bottom:50%;
-	top:25%;
-	left:25%;
-	right:25%;
-   
-	animation: name 3s  
-		infinite;
-	animation-delay: 0s;
-	color:black;
-	font-size:10px;
-}
-#floor
-{
-	position:absolute;
-	width:100px;
-	height:20px;
-	color:black;
-}
-	#div1
-{
-	background-color:white;
-    width: 100%;
-	animation: div1 2s ;
-	infinite:
-	animation-delay: 0s;
-}
-#div2
-{
-	background-color:white;
-    width: 100%;
-	animation: div2 4s ;
-	animation-delay: 1s; 
-	infinite:
+
+
+#Megalist{
+	 font-family: verdana;
+    font-size: 200%;
+	top: 0px;
+	right: 0px;
+	width:0px;
+	bottom:0px;
+	position: absolute;
+	background-color: #880000;
+	padding-left:320px ;
+	
 }
 
-#div3
-{
-	background-color:red;
-    width: 100%;
-	animation: div3 3s ;
-	animation-delay: 0s;
-	infinite:
-}
-
-#div4
-{
-	background-color:maroon;
-    width: 100%;
-	animation: div4 2s ;
-	animation-delay: 1s; 
-	infinite:
+#Otsikko{
+font-family: verdana;
+    font-size: 200%;
+	position: absolute;
+		top: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: #888888;
+	color: #880000;
 }
 
 
 
-#div1
-{animation-timing-function: ease;}
-#div2
-{animation-timing-function: ease;}
-#div3
-{animation-timing-function: ease;}
-#div4
-{animation-timing-function: ease;}
-#name
-{animation-timing-function: ease;}
 
 
-@keyframes div1
-{
-	0% {bottom:20%;height:100%;}
-	100% {bottom:100%;height:100%;}
-}
-@keyframes div2
-{
-	0% {bottom:20%;height:100%;}
-	100% {bottom:100%;height:100%;}
-}
-@keyframes div3
-{
-	0% {bottom:20%;height:100%;}
-	100% {bottom:100%;height:100%;}
-}
-@keyframes div4
-{
-	0% {bottom:20%;height:100%;}
-	100% {bottom:100%;height:100%;}
-}
-@keyframes name
-{
-	0% {color:grey;left:20%;}
-	25% {color:black;bottom:1px;}
-	50% {color:gray;left:80%;} 
-	75% {color:black;bottom:1px;}
-	100% {color:grey;left:20%;}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0px;
+	
+	width:300px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom:0%;
+
+    background-color: #2a2a2a;
 }
 
+li a{
+    display: block;
+    color: #888888;
+    text-align: left;
+    padding:10px ;
 
+	padding-right: 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
 
 
 
