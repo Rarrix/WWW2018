@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<title>just</title>
+<head>
+ <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+
+<div id="Otsikko">
+<H1>Drag and Drop</H1>
+</div>
+
+<div id="Megalist">
+<ul>
+  <li><p>Tasks</p></li>
+  <li><a href="AudioVideo.html">Audio and Video</a></li>
+  <li>Drag and Drop</li>
+  <li><a href="Optimisation.html">Optimization</a></li>
+  <li><a href="Geolocation.html">Geolocation</a></li>
+  <li><a href="Images.html">Images</a></li>
+  <li><a href="Tables.html">Tables</a></li>
+  <li><a href="Forms.html">Forms</a></li>
+  <li><a href="Lists.html">Lists</a></li>
+  
+</ul>
+
+</div>
+<div id="Stuff">
+	<div id= "StuffInside">
+
+	
+	<script>
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+}
+</script>
+<style>
+#Left, #Right{
+
+    border: 1px solid black;
+}
+#LeftStuff, #RightStuff{
+
+    width:0px;
+	height:0px;
+}
+</style>
+		<div id= "Left" ondrop="drop(event)" ondragover="allowDrop(event)">
+		<img src="virtane.png" draggable="true" ondragstart="drag(event)" id="drag1" >
+		
+		<h1>Move this guy</h1>
+		<div id="LeftStuff" ondrop="drop(event)" ondragover="allowDrop(event)">
+		</div>	
+		</div>	
+
+
+		<div id= "Right" ondrop="drop(event)" ondragover="allowDrop(event)">
+		<div id="RightStuff" ondrop="drop(event)" ondragover="allowDrop(event)">
+		<h1>here</h1>
+		</div>
+		</div>
+
+		<div id= "StuffInside2">
+		</div>
+	</div>
+</div>
+
+</div>
+
+
+
+
+</body>
+</html>

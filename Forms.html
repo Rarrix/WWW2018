@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<title>just</title>
+<head>
+ <link rel="stylesheet" type="text/css" href="styles.css">
+
+ <script>
+ function validateForm(){
+ 	 if (document.forms["myForm"]["inputname"].value==null || document.forms["myForm"]["inputname"].value=="")
+ {
+ 	 alert("name must be filled out");
+	 return false;
+ }
+ 	 if (document.forms["myForm"]["inputage"].value==null || document.forms["myForm"]["inputage"].value=="")
+ {
+ 	 alert("Age must be filled out");
+	 return false;
+ }
+ else return true;
+ }
+ </script>
+</head>
+<body>
+
+
+<div id="Otsikko">
+<H1>Forms</H1>
+</div>
+
+<div id="Megalist">
+<ul>
+  <li><p>Tasks</p></li>
+  <li><a href="AudioVideo.html">Audio and Video</a></li>
+  <li><a href="DragDrop.html">Drag and Drop</a></li>
+  <li><a href="Optimisation.html">Optimization</a></li>
+  <li><a href="Geolocation.html">Geolocation</a></li>
+  <li><a href="Images.html">Images</a></li>
+  <li><a href="Tables.html">Tables</a></li>
+  <li>Forms</li>
+  <li><a href="Lists.html">Lists</a></li>
+
+  
+</ul>
+
+</div>
+<div id="Stuff">
+	<div id= "StuffInside">
+
+
+
+
+			
+
+		<div id="Left">
+		<div id="LeftStuff">
+			<form name="myForm" onsubmit="return validateForm()">
+	<input type="text" name="inputname"/>Name<br/>
+	<input type="text" name="inputage"/>Age<br/>
+	<input type="submit"/>
+	</form>
+
+		</div>	
+		</div>	
+
+		<div id="Right">
+		<div id="RightStuff">
+
+		</div>
+		</div>
+		<div id="StuffInside2">
+		</div>
+	</div>
+</div>
+
+</div>
+
+
+
+
+</body>
+</html>
