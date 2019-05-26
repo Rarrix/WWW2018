@@ -1,48 +1,25 @@
 <!DOCTYPE html>
-<html>
-<title>WWW2018</title>
-<head>
- <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-
-
-<div id="Otsikko">
-<H1> Janne Viitala WWW2018</H1>
-</div>
-
-<div id="Megalist">
-<ul>
-  <li><p>Tasks</p></li>
-  <li><a href="AudioVIdeo.html">Audio and Video</a></li>
-  <li><a href="DragDrop.html">Drag and Drop</a></li>
-  <li><a href="Optimisation.html">Optimization</a></li>
-  <li><a href="Geolocation.html">Geolocation</a></li>
-  <li><a href="Images.html">Images</a></li>
-  <li><a href="Tables.html">Tables</a></li>
-  <li><a href="Forms.html">Forms</a></li>
-  <li><a href="Lists.html">Lists</a></li>
-
-  
-</ul>
-
-</div>
-<div id="Stuff">
-	<div id= "StuffInside">
-		<div id= "StuffInside2">
-
-
-		<H1>Click the links to browse the tasks --></h1>
-
-
-		</div>
-	</div>
-</div>
-
-</div>
-
-
-
-
-</body>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | minus dimension</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/webgl.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">minus dimension</div>
+      </div>
+    </div>
+  </body>
 </html>
